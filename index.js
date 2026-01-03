@@ -21,7 +21,8 @@ const PORT = process.env.PORT || 3000;
 /* ---------------- CORS CONFIG ---------------- */
 
 const allowedOrigins = [
-  process.env.FR_URL || "http://localhost:5173"
+  "http://localhost:5173",
+  "https://lms-frontend-eta-swart.vercel.app",
 ];
 
 app.use(
